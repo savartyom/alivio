@@ -1,0 +1,31 @@
+.avatar {
+    text-align: center;
+}
+
+.avatar-img {
+    margin-bottom: 13px;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar-name {
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 226px;
+        height: 275px;
+        padding: 15px 10px 20px;
+    }
+
+    .card-title {
+        margin: 0;
+    }
+
+    .card-avatar {
+        margin-bottom: 15px;
+    }
+}
